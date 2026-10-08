@@ -1376,25 +1376,6 @@ body::before {
 .hero { background: #f6fafd; }
 
 .hero-tagline .rotator { isolation: isolate; }
-.brush {
-  position: absolute;
-  z-index: -1;
-  left: -3%;
-  bottom: -0.12em;
-  width: 106%;
-  height: 0.42em;
-  overflow: visible;
-}
-.brush path {
-  fill: none;
-  stroke: #a9cbe6;
-  stroke-width: 9;
-  stroke-linecap: round;
-  opacity: 0.75;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  animation: draw 1.1s var(--ease) 0.9s both;
-}
 
 /* About: the monogram sits on a slowly shifting watercolor pool */
 .porthole {
